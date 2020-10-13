@@ -28,6 +28,10 @@ git clone https://github.com/NusantaraROM-Devices/vendor_xiaomi_santoni.git -b 1
 # Clone Toolclain
 git clone https://github.com/kdrag0n/proton-clang --depth=1 prebuilts/clang/host/linux-x86/clang-12
 
+# Use Cache
+export USE_CCACHE=1
+ccache -M 150G
+
 # Build Rom
 . build/envsetup.sh
 lunch nad_santoni-userdebug
