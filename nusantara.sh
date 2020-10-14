@@ -32,6 +32,10 @@ git clone https://github.com/kdrag0n/proton-clang --depth=1 prebuilts/clang/host
 export USE_CCACHE=1
 ccache -M 150G
 
+# Fix Hotspot
+rm -rf hardware/qcom-caf/wlan
+git clone https://github.com/SakilMondal/android_hardware_qcom-caf_wlan -b lineage-18.0 hardware/qcom-caf/wlan
+
 # Build Rom
 . build/envsetup.sh
 lunch nad_santoni-userdebug
