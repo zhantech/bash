@@ -1,5 +1,5 @@
 # Buka Directory
-cd ~/nad10
+cd ~/nad-10
 
 # Sync Repo
 repo init -u ssh://git@github.com/Nusantara-ROM/android.git -b 10
