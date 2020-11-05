@@ -29,6 +29,7 @@ git clone https://github.com/kdrag0n/proton-clang --depth=1 prebuilts/clang/host
 cd vendor/rr
 git fetch https://github.com/zhantech/android_vendor_resurrection Q
 git cherry-pick a628ad8e3bcfeb6728234a6e7cc1661802cc6204
+git cherry-pick 87d035d04e2556472ced65a066afa16945da3301
 cd ../..
 
 # Use Cache
