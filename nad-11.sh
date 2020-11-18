@@ -9,6 +9,10 @@ rm -rf hardware/qcom-caf/msm8996/media
 rm -rf vendor/qcom/opensource/display-commonsys-intf
 rm -rf hardware/qcom-caf/wlan
 
+# Custom
+rm -rf device/qcom/sepolicy-legacy-um
+rm -rf system/bt
+
 # Sync Repo
 repo init -u ssh://git@github.com/Nusantara-ROM/android.git -b 11
 repo sync --force-sync --no-tags --no-clone-bundle
