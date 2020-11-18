@@ -8,6 +8,7 @@ rm -rf hardware/qcom-caf/msm8996/display
 rm -rf hardware/qcom-caf/msm8996/media
 rm -rf vendor/qcom/opensource/display-commonsys-intf
 rm -rf hardware/qcom-caf/wlan
+rm -rf frameworks/native
 
 # Custom
 rm -rf device/qcom/sepolicy-legacy-um
