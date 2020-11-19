@@ -8,7 +8,6 @@ rm -rf hardware/qcom-caf/msm8996/display
 rm -rf hardware/qcom-caf/msm8996/media
 rm -rf vendor/qcom/opensource/display-commonsys-intf
 rm -rf hardware/qcom-caf/wlan
-rm -rf frameworks/native
 
 # Custom
 rm -rf device/qcom/sepolicy-legacy-um
@@ -62,12 +61,6 @@ rm -rf device/qcom/sepolicy-legacy-um
 rm -rf system/bt
 git clone https://github.com/Jabiyeff/android_device_qcom_sepolicy -b lineage-18.0-legacy-um device/qcom/sepolicy-legacy-um
 git clone https://github.com/Jabiyeff/android_system_bt -b lineage-18.0 system/bt
-
-# FW Nativ
-cd frameworks/native
-git fetch https://github.com/Jabiyeff/android_frameworks_native 11.0
-git cherry-pick 2a7a2eb81750d5d8c645de1eb40e2f870caf2f60
-cd ../..
 
 # Build Rom
 . build/envsetup.sh
