@@ -27,7 +27,7 @@ git clone https://github.com/kdrag0n/proton-clang --depth=1 prebuilts/clang/host
 cd packages/apps/Settings
 git fetch https://github.com/zhantech/Resurrection_packages_apps_Settings Q
 git cherry-pick 777568fe6127701244608b88ac469218cab7cc56
-git cherry-pick 777568fe6127701244608b88ac469218cab7cc56
+git cherry-pick e0ec3efe40301322a710c4eb756eb6500d0964a7
 cd ../../..
 
 # DSB
@@ -49,5 +49,5 @@ ccache -M 150G
 
 # Build Rom
 . build/envsetup.sh
-export KBUILD_BUILD_USER="ZHANtech™"; export KBUILD_BUILD_HOST="gatotkaca"
+export KBUILD_BUILD_USER="ZHANtech"; export KBUILD_BUILD_HOST="gatotkaca"
 brunch rr_ginkgo-user
