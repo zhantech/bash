@@ -37,11 +37,10 @@ git cherry-pick d1e0af17c1d4086ad77ba1843ebcdde8755beaab
 cd ../..
 
 # Lawnchair
-# cd vendor/rr
-# git fetch https://github.com/zhantech/android_vendor_resurrection Q
-# git cherry-pick a628ad8e3bcfeb6728234a6e7cc1661802cc6204
-# git cherry-pick 87d035d04e2556472ced65a066afa16945da3301
-# cd ../..
+cd vendor/rr
+git fetch https://github.com/zhantech/android_vendor_resurrection Q
+git cherry-pick f2dc3b62c2c5e969671bdb4095f1a0295b16f7a0
+cd ../..
 
 # Use Cache
 export USE_CCACHE=1
