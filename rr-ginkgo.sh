@@ -26,8 +26,7 @@ git clone https://github.com/kdrag0n/proton-clang --depth=1 prebuilts/clang/host
 # DSB & Like Octavi
 cd packages/apps/Settings
 git fetch https://github.com/zhantech/Resurrection_packages_apps_Settings Q
-git cherry-pick 777568fe6127701244608b88ac469218cab7cc56
-git cherry-pick e0ec3efe40301322a710c4eb756eb6500d0964a7
+git cherry-pick 81ac53c65bc99d1023105a3a3e0b082a6d721092^..e1d13d83c4bc45356dd916f59fdea0e845501613
 cd ../../..
 
 # DSB
@@ -39,7 +38,7 @@ cd ../..
 # Lawnchair
 cd vendor/rr
 git fetch https://github.com/zhantech/android_vendor_resurrection Q
-git cherry-pick f2dc3b62c2c5e969671bdb4095f1a0295b16f7a0
+git cherry-pick f63673bc24f900368174d52797f4d4d90565d66e
 cd ../..
 
 # Use Cache
